@@ -9,6 +9,7 @@ const listElement = document.querySelector(".list-container")
 
 const profileSection = document.querySelector(".profile-container");
 const projectsSection = document.querySelector(".projects-container");
+const project10 = document.querySelector(".project-box10");
 const contactSection = document.querySelector(".contact-container");
 const skillsSection = document.querySelector(".skills-container");
 const nameSection = document.querySelector(".name-container");
@@ -33,8 +34,10 @@ function homPage(){
 
 
 function iconProfile() {
-    profileSection.style.display = "flex";
-    projectsSection.style.display = "block";
+     profileSection.style.display = "block";
+    // profileSection.style.display = "flex";
+    // projectsSection.style.display = "block";
+     project10.style.display = "none",
     contactSection.style.display = "none";
     skillsSection.style.display = "none";
     nameSection.style.display = "none";
@@ -43,7 +46,8 @@ function iconProfile() {
 
 function iconProjects() {
     profileSection.style.display = "none";
-    projectsSection.style.display = "block";
+    // projectsSection.style.display = "block";
+    project10.style.display = "block",
     contactSection.style.display = "none";
     skillsSection.style.display = "none";
     nameSection.style.display = "none";
@@ -52,7 +56,8 @@ function iconProjects() {
 
 
 function iconContacts() {
-    projectsSection.style.display = "none";
+     // projectsSection.style.display = "none";
+     project10.style.display = "none",
     contactSection.style.display = "block";
     profileSection.style.display = "none";
     skillsSection.style.display = "none";
@@ -60,7 +65,8 @@ function iconContacts() {
 }
 
 function skillAction() {
-    projectsSection.style.display = "none";
+     // projectsSection.style.display = "none";
+     project10.style.display = "none",
     skillsSection.style.display = "block";
     profileSection.style.display = "none";
      contactSection.style.display = "none";
