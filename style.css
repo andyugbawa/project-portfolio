@@ -61,7 +61,7 @@ body{
     color:rgb(8, 130, 244);
  }
 .box-container{
-    display: flex;
+    /* display: flex; */
     justify-content: center; 
     /* background: purple; */
    
@@ -71,6 +71,7 @@ body{
 .box-load{
     /* width:1200px; */
     width:100%;
+    
    
 }
 
@@ -264,7 +265,7 @@ h1{
     font-size: 25px;
     font-family: sans-serif;
     font-weight: 500;
-    color: orange;
+    color: rgb(0, 247, 255);
  }
 .skills-container{
    margin-top: 20px;
@@ -303,6 +304,7 @@ h1{
     font-size: 20px;
     font-weight: 900;
     color: orange;
+    cursor: pointer;
 }
 
 .profile-container,
